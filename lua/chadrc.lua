@@ -173,8 +173,8 @@ M.mappings.plugin = {
       format = "<leader>fm",
    },
    telescope = {
-      buffers = "<C-b>",
-      find_files = "<C-p>",
+      buffers = "<A-b>",
+      find_files = "<A-p>",
       git_commits = "<leader>cm",
       git_status = "<leader>gt",
       help_tags = "<leader>fh",

@@ -268,6 +268,10 @@ return packer.startup(function()
    }
 
    use {
+      "preservim/nerdtree",
+   }
+
+   use {
       "hrsh7th/cmp-nvim-lsp",
       after = "cmp-nvim-lua",
    }
@@ -276,6 +280,12 @@ return packer.startup(function()
       "hrsh7th/cmp-buffer",
       after = "cmp-nvim-lsp",
    }
+
+    use {
+        'romgrk/barbar.nvim',
+        after = "nvim-web-devicons",
+        requires = {'kyazdani42/nvim-web-devicons'}
+    }
 
    -- misc plugins
    --use {
